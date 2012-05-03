@@ -103,7 +103,6 @@ GEM
     mime-types (1.18)
     multi_json (1.3.4)
     multipart-post (1.1.5)
-    mysql2 (0.3.11)
     oauth (0.4.6)
     oauth2 (0.6.1)
       faraday (~> 0.7)
@@ -192,7 +191,6 @@ DEPENDENCIES
   hbs
   jquery-rails
   let_me_in!
-  mysql2
   navel_gazer!
   omniauth-banters!
   omniauth-identity
