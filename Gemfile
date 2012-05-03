@@ -5,7 +5,30 @@ gem 'rails', '3.1.4'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+# group :development do
+  gem 'mysql2'
+# end
+# 
+# group :production do
+#   gem 'pg'
+# end  
+
+#gem 'let_me_in', :git => 'git@github.com:becarella/let_me_in.git'
+#gem 'navel_gazer', :git => 'git@github.com:becarella/navel_gazer.git'
+gem "render_or_redirect", :git => 'git@github.com:becarella/render_or_redirect.git'
+
+gem 'let_me_in', :path => '/Users/becarella/Projects/let_me_in'
+gem 'navel_gazer', :path => '/Users/becarella/Projects/navel_gazer'
+
+
+
+gem 'omniauth-identity'
+gem 'omniauth-instagram'
+gem 'omniauth-twitter', '0.0.8'
+gem 'omniauth-banters', :git => "git://github.com/becarella/omniauth-banters.git"
+
+gem 'hbs'
+gem 'handlebars_assets'
 
 
 # Gems used only for assets and not required
