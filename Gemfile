@@ -5,17 +5,11 @@ gem 'rails', '3.1.4'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-# group :development do
-  gem 'mysql2'
-# end
-# 
-# group :production do
-#   gem 'pg'
-# end  
+gem 'pg'
 
+gem "render_or_redirect", :git => 'git@github.com:becarella/render_or_redirect.git'
 gem 'let_me_in', :git => 'git@github.com:becarella/let_me_in.git'
 gem 'navel_gazer', :git => 'git@github.com:becarella/navel_gazer.git'
-gem "render_or_redirect", :git => 'git@github.com:becarella/render_or_redirect.git'
 
 
 gem 'omniauth-identity'
