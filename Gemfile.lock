@@ -6,27 +6,29 @@ GIT
       omniauth-oauth2 (~> 1.0.0)
 
 GIT
-  remote: git@github.com:becarella/render_or_redirect.git
-  revision: 3d9dbfbbe41dda690b207346cdc0f6aa4b16a0c0
-  specs:
-    render_or_redirect (0.0.1)
-      rails (~> 3.1.1)
-
-PATH
-  remote: /Users/becarella/Projects/let_me_in
+  remote: git@github.com:becarella/let_me_in.git
+  revision: 3b33e602a082a579863255aeaecaded8b3075853
   specs:
     let_me_in (0.0.1)
       bcrypt-ruby (~> 3.0.0)
       omniauth-identity
       rails (~> 3.1.4)
 
-PATH
-  remote: /Users/becarella/Projects/navel_gazer
+GIT
+  remote: git@github.com:becarella/navel_gazer.git
+  revision: 13bdbe1921c9d9551ccc5e14abf36542d6b5ae3b
   specs:
     navel_gazer (0.0.1)
       embedly
       rails (~> 3.1.1)
       rest-client
+
+GIT
+  remote: git@github.com:becarella/render_or_redirect.git
+  revision: 3d9dbfbbe41dda690b207346cdc0f6aa4b16a0c0
+  specs:
+    render_or_redirect (0.0.1)
+      rails (~> 3.1.1)
 
 GEM
   remote: http://rubygems.org/
